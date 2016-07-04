@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		64E058AB1D23FE5900D5A5CB /* TableViewHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 64E058AA1D23FE5900D5A5CB /* TableViewHeaderView.m */; };
 		64FEECE11D22229F008BE970 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 64FEECE01D22229F008BE970 /* main.m */; };
 		64FEECE41D22229F008BE970 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 64FEECE31D22229F008BE970 /* AppDelegate.m */; };
 		64FEECE71D22229F008BE970 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64FEECE61D22229F008BE970 /* ViewController.m */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		64E058A91D23FE5900D5A5CB /* TableViewHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewHeaderView.h; sourceTree = "<group>"; };
+		64E058AA1D23FE5900D5A5CB /* TableViewHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewHeaderView.m; sourceTree = "<group>"; };
 		64FEECDC1D22229F008BE970 /* TableViewZheDie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableViewZheDie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		64FEECE01D22229F008BE970 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		64FEECE21D22229F008BE970 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -105,6 +108,8 @@
 				64FEECE31D22229F008BE970 /* AppDelegate.m */,
 				64FEECE51D22229F008BE970 /* ViewController.h */,
 				64FEECE61D22229F008BE970 /* ViewController.m */,
+				64E058A91D23FE5900D5A5CB /* TableViewHeaderView.h */,
+				64E058AA1D23FE5900D5A5CB /* TableViewHeaderView.m */,
 				64FEECE81D22229F008BE970 /* Main.storyboard */,
 				64FEECEB1D2222A0008BE970 /* Assets.xcassets */,
 				64FEECED1D2222A0008BE970 /* LaunchScreen.storyboard */,
@@ -207,6 +212,7 @@
 				TargetAttributes = {
 					64FEECDB1D22229F008BE970 = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 79E8FRGCJ5;
 					};
 					64FEECF41D2222A0008BE970 = {
 						CreatedOnToolsVersion = 7.2;
@@ -273,6 +279,7 @@
 				64FEECE71D22229F008BE970 /* ViewController.m in Sources */,
 				64FEECE41D22229F008BE970 /* AppDelegate.m in Sources */,
 				64FEECE11D22229F008BE970 /* main.m in Sources */,
+				64E058AB1D23FE5900D5A5CB /* TableViewHeaderView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,6 +418,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = TableViewZheDie/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = xunbao.TableViewZheDie;
@@ -422,6 +430,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = TableViewZheDie/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = xunbao.TableViewZheDie;
@@ -496,6 +505,7 @@
 				64FEED0B1D2222A0008BE970 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		64FEED0C1D2222A0008BE970 /* Build configuration list for PBXNativeTarget "TableViewZheDieTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +514,7 @@
 				64FEED0E1D2222A0008BE970 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		64FEED0F1D2222A0008BE970 /* Build configuration list for PBXNativeTarget "TableViewZheDieUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +523,7 @@
 				64FEED111D2222A0008BE970 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
